@@ -1,0 +1,17 @@
+{
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "^5.4",
+    "filp/whoops": "^2.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "files": [
+      "library/helpers.php"
+    ],
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
